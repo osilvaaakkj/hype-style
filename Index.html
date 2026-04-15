@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hype Style Store | Castro-PR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background-color: #f8f9fa; color: #1a1a1a; line-height: 1.6; }
+        header { background: #000; color: #fff; padding: 2rem; text-align: center; text-transform: uppercase; letter-spacing: 4px; }
+        .hero { height: 400px; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; color: white; text-align: center; }
+        .hero h1 { font-size: 3rem; font-weight: 900; }
+        .container { max-width: 1000px; margin: -50px auto 50px; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); position: relative; }
+        .status-badge { display: inline-block; background: #e74c3c; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9rem; margin-bottom: 1rem; }
+        .rating { color: #f1c40f; font-size: 1.2rem; margin-bottom: 2rem; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 20px; }
+        h3 { margin-bottom: 15px; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+        .info-box ul { list-style: none; }
+        .info-box ul li { margin-bottom: 10px; display: flex; justify-content: space-between; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; }
+        .footer-actions { margin-top: 40px; display: flex; gap: 15px; flex-wrap: wrap; }
+        .btn { flex: 1; padding: 15px; text-align: center; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; }
+        .btn-dark { background: #000; color: white; }
+        .btn-outline { border: 2px solid #000; color: #000; }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } .hero h1 { font-size: 2rem; } .container { margin: -30px 15px 50px; padding: 20px; } }
+    </style>
+</head>
+<body>
+    <header>Hype Style Store</header>
+    <div class="hero">
+        <div>
+            <h1>DEFINA SEU ESTILO</h1>
+            <p>O melhor do streetwear em Castro</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="status-badge">Fechado no momento</div>
+        <div class="rating">★★★★★ 5.0 <span style="color: #666; font-size: 0.9rem;">(3 avaliações)</span></div>
+        <div class="grid">
+            <div class="info-box">
+                <h3>Onde Estamos</h3>
+                <p><strong>Endereço:</strong><br>
+                R. Dr. Jorge Xavier da Silva, 32 - Centro<br>
+                Castro - PR, 84165-000</p>
+                <p style="margin-top: 15px; color: #666;">📍 Localização privilegiada no Centro.</p>
+            </div>
+            <div class="info-box">
+                <h3>Horários</h3>
+                <ul>
+                    <li><span>Segunda-feira</span> <span>09:00–18:00</span></li>
+                    <li><span>Terça-feira</span> <span>09:00–18:00</span></li>
+                    <li><span>Quarta-feira</span> <span>09:00–18:00</span></li>
+                    <li><span>Quinta-feira</span> <span>09:00–18:00</span></li>
+                    <li><span>Sexta-feira</span> <span>09:00–18:00</span></li>
+                    <li><span>Sábado</span> <span>09:00–16:00</span></li>
+                    <li><span>Domingo</span> <span>Fechado</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-actions">
+            <a href="https://www.google.com/maps/dir//hype+style+store" class="btn btn-dark" target="_blank">TRAÇAR ROTA</a>
+            <a href="#" class="btn btn-outline">CONTATO WHATSAPP</a>
+        </div>
+    </div>
+</body>
+          </html>
+  
